@@ -1,0 +1,12 @@
+/* Centrare imagini și videoclipuri */
+section {
+    text-align: center;
+}
+
+section img, section video {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}

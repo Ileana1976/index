@@ -1,0 +1,13 @@
+.colaj {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Spațiere între imagini */
+    justify-content: center;
+}
+
+.colaj img {
+    width: calc(80% - 10px); /* 2 imagini pe rând */
+    height: auto;
+    border-radius: 10px; /* Colțuri rotunjite */
+    object-fit: cover;
+}
